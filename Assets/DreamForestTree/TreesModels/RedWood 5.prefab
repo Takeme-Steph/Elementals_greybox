@@ -85,7 +85,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -102,10 +102,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Optimized Leaf Material
-  m_Shader: {fileID: 10605, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: -6465566751694194690, guid: 9920c1f1781549a46ba081a2a15a16ec,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - BACKFACE_NORMAL_MODE_MIRROR
+  - _WINDQUALITY_BEST
   m_InvalidKeywords: []
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
@@ -117,8 +120,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpSpecMap:
         m_Texture: {fileID: 2800000, guid: 6a5ffc35a1583db4a87aa5a275ee0814, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtraTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -129,19 +140,57 @@ Material:
         m_Texture: {fileID: 2800000, guid: 6af796a350110b242a37fd6cf05eeb0f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
         m_Texture: {fileID: 2800000, guid: e2e09d3ddebbff148b61304933f5bcd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - BACKFACE_NORMAL_MODE: 1
+    - EFFECT_BILLBOARD: 0
+    - EFFECT_EXTRA_TEX: 1
+    - _AlphaClipThreshold: 0.33
     - _Cutoff: 0.3
+    - _Glossiness: 0.5
+    - _HueVariationKwToggle: 1
+    - _Metallic: 0
+    - _NormalMapKwToggle: 1
+    - _OldHueVarBehavior: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _ShadowOffsetScale: 1
     - _ShadowStrength: 0.8
     - _SquashAmount: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
     - _TranslucencyViewDependency: 0.7
+    - _WINDQUALITY: 4
+    - _WindQuality: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.2}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.40999997, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
@@ -154,10 +203,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Optimized Bark Material
-  m_Shader: {fileID: 10604, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: -6465566751694194690, guid: 9920c1f1781549a46ba081a2a15a16ec,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - BACKFACE_NORMAL_MODE_MIRROR
+  - _WINDQUALITY_BEST
   m_InvalidKeywords: []
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
@@ -169,25 +221,69 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpSpecMap:
         m_Texture: {fileID: 2800000, guid: 6a5ffc35a1583db4a87aa5a275ee0814, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ExtraTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: cc4bcc87e3fd5d1458291174eb2efa09, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
         m_Texture: {fileID: 2800000, guid: e2e09d3ddebbff148b61304933f5bcd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - BACKFACE_NORMAL_MODE: 1
+    - EFFECT_BILLBOARD: 0
+    - EFFECT_EXTRA_TEX: 1
+    - _AO: 2.4
+    - _AlphaClipThreshold: 0.33
+    - _BaseLight: 0.35
     - _Cutoff: 0.3
+    - _Glossiness: 0.5
+    - _HueVariationKwToggle: 1
+    - _Metallic: 0
+    - _NormalMapKwToggle: 1
+    - _OldHueVarBehavior: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _SquashAmount: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
+    - _WINDQUALITY: 4
+    - _WindQuality: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.2}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

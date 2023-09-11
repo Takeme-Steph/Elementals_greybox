@@ -97,6 +97,7 @@ namespace StarterAssets
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        private int _animIDSimpleAttack;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -159,6 +160,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            OnAttack();
         }
 
         private void LateUpdate()
@@ -173,6 +175,7 @@ namespace StarterAssets
             _animIDJump = Animator.StringToHash("Jump");
             _animIDFreeFall = Animator.StringToHash("FreeFall");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
+            _animIDSimpleAttack = Animator.StringToHash("SimpleAttack");
         }
 
         private void GroundedCheck()
@@ -386,6 +389,27 @@ namespace StarterAssets
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
+            }
+        }
+
+        private void OnAttack()
+        {
+            //if attack button is clicked, play appropriateattack animation
+            if (_input.attack)
+            {
+                if (_hasAnimator)
+                {   //trigger attack animation
+                    _animator.SetBool(_animIDSimpleAttack, true);
+                }
+                //reset attack input to false
+                _input.attack = false;
+            }
+            else
+            {
+                if (_hasAnimator)
+                {   //reset attack animation trigger
+                    _animator.SetBool(_animIDSimpleAttack, false);
+                }
             }
         }
     }
