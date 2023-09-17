@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4c1e932622bb42846945273d8b54f0b9
-timeCreated: 1552668256
+guid: 0404ac7dc12f1524e8ab210e57629e8f
+timeCreated: 1549278557
 licenseType: Store
 ModelImporter:
   serializedVersion: 22
@@ -55,76 +55,82 @@ ModelImporter:
     100094: calf_twist_01_r
     100096: clavicle_l
     100098: clavicle_r
-    100100: foot_l
-    100102: foot_r
-    100104: //RootNode
-    100106: FX_Laser_Root
-    100108: FX_Projectile
-    100110: FX_Projectile1
-    100112: FX_Ring
-    100114: FX_Ring_Mesh
-    100116: hand_l
-    100118: hand_r
-    100120: head
-    100122: ik_foot_l
-    100124: ik_foot_r
-    100126: ik_foot_root
-    100128: ik_hand_gun
-    100130: ik_hand_l
-    100132: ik_hand_r
-    100134: ik_hand_root
-    100136: index_01_l
-    100138: index_01_r
-    100140: index_02_l
-    100142: index_02_r
-    100144: index_03_l
-    100146: index_03_r
-    100148: lowerarm_l
-    100150: lowerarm_r
-    100152: lowerarm_twist_01_l
-    100154: lowerarm_twist_01_r
-    100156: Magic_Ball
-    100158: Main_Camera
-    100160: middle_01_l
-    100162: middle_01_r
-    100164: middle_02_l
-    100166: middle_02_r
-    100168: middle_03_l
-    100170: middle_03_r
-    100172: neck_01
-    100174: pelvis
-    100176: pinky_01_l
-    100178: pinky_01_r
-    100180: pinky_02_l
-    100182: pinky_02_r
-    100184: pinky_03_l
-    100186: pinky_03_r
-    100188: R_Hand_Weapon
-    100190: ring_01_l
-    100192: ring_01_r
-    100194: ring_02_l
-    100196: ring_02_r
-    100198: ring_03_l
-    100200: ring_03_r
-    100202: root
-    100204: spine_01
-    100206: spine_02
-    100208: spine_03
-    100210: Staff_Root
-    100212: thigh_l
-    100214: thigh_r
-    100216: thigh_twist_01_l
-    100218: thigh_twist_01_r
-    100220: thumb_01_l
-    100222: thumb_01_r
-    100224: thumb_02_l
-    100226: thumb_02_r
-    100228: thumb_03_l
-    100230: thumb_03_r
-    100232: upperarm_l
-    100234: upperarm_r
-    100236: upperarm_twist_01_l
-    100238: upperarm_twist_01_r
+    100100: Cloak
+    100102: foot_l
+    100104: foot_r
+    100106: Frank_Mesh_Unity
+    100108: //RootNode
+    100110: FX_Laser
+    100112: FX_Laser_Root
+    100114: FX_Projectile
+    100116: FX_Projectile1
+    100118: FX_Projectile_Mesh
+    100120: FX_Projectile_Mesh1
+    100122: FX_Ring
+    100124: FX_Ring_Mesh
+    100126: hand_l
+    100128: hand_r
+    100130: head
+    100132: ik_foot_l
+    100134: ik_foot_r
+    100136: ik_foot_root
+    100138: ik_hand_gun
+    100140: ik_hand_l
+    100142: ik_hand_r
+    100144: ik_hand_root
+    100146: index_01_l
+    100148: index_01_r
+    100150: index_02_l
+    100152: index_02_r
+    100154: index_03_l
+    100156: index_03_r
+    100158: lowerarm_l
+    100160: lowerarm_r
+    100162: lowerarm_twist_01_l
+    100164: lowerarm_twist_01_r
+    100166: Magic_Ball
+    100168: middle_01_l
+    100170: middle_01_r
+    100172: middle_02_l
+    100174: middle_02_r
+    100176: middle_03_l
+    100178: middle_03_r
+    100180: neck_01
+    100182: pelvis
+    100184: pinky_01_l
+    100186: pinky_01_r
+    100188: pinky_02_l
+    100190: pinky_02_r
+    100192: pinky_03_l
+    100194: pinky_03_r
+    100196: R_Hand_Weapon
+    100198: ring_01_l
+    100200: ring_01_r
+    100202: ring_02_l
+    100204: ring_02_r
+    100206: ring_03_l
+    100208: ring_03_r
+    100210: root
+    100212: spine_01
+    100214: spine_02
+    100216: spine_03
+    100218: Staff_Root
+    100220: thigh_l
+    100222: thigh_r
+    100224: thigh_twist_01_l
+    100226: thigh_twist_01_r
+    100228: thumb_01_l
+    100230: thumb_01_r
+    100232: thumb_02_l
+    100234: thumb_02_r
+    100236: thumb_03_l
+    100238: thumb_03_r
+    100240: upperarm_l
+    100242: upperarm_r
+    100244: upperarm_twist_01_l
+    100246: upperarm_twist_01_r
+    100248: weapon001
+    100250: Main_Camera
     400000: ball_l
     400002: ball_r
     400004: Bone001
@@ -175,83 +181,128 @@ ModelImporter:
     400094: calf_twist_01_r
     400096: clavicle_l
     400098: clavicle_r
-    400100: foot_l
-    400102: foot_r
-    400104: //RootNode
-    400106: FX_Laser_Root
-    400108: FX_Projectile
-    400110: FX_Projectile1
-    400112: FX_Ring
-    400114: FX_Ring_Mesh
-    400116: hand_l
-    400118: hand_r
-    400120: head
-    400122: ik_foot_l
-    400124: ik_foot_r
-    400126: ik_foot_root
-    400128: ik_hand_gun
-    400130: ik_hand_l
-    400132: ik_hand_r
-    400134: ik_hand_root
-    400136: index_01_l
-    400138: index_01_r
-    400140: index_02_l
-    400142: index_02_r
-    400144: index_03_l
-    400146: index_03_r
-    400148: lowerarm_l
-    400150: lowerarm_r
-    400152: lowerarm_twist_01_l
-    400154: lowerarm_twist_01_r
-    400156: Magic_Ball
-    400158: Main_Camera
-    400160: middle_01_l
-    400162: middle_01_r
-    400164: middle_02_l
-    400166: middle_02_r
-    400168: middle_03_l
-    400170: middle_03_r
-    400172: neck_01
-    400174: pelvis
-    400176: pinky_01_l
-    400178: pinky_01_r
-    400180: pinky_02_l
-    400182: pinky_02_r
-    400184: pinky_03_l
-    400186: pinky_03_r
-    400188: R_Hand_Weapon
-    400190: ring_01_l
-    400192: ring_01_r
-    400194: ring_02_l
-    400196: ring_02_r
-    400198: ring_03_l
-    400200: ring_03_r
-    400202: root
-    400204: spine_01
-    400206: spine_02
-    400208: spine_03
-    400210: Staff_Root
-    400212: thigh_l
-    400214: thigh_r
-    400216: thigh_twist_01_l
-    400218: thigh_twist_01_r
-    400220: thumb_01_l
-    400222: thumb_01_r
-    400224: thumb_02_l
-    400226: thumb_02_r
-    400228: thumb_03_l
-    400230: thumb_03_r
-    400232: upperarm_l
-    400234: upperarm_r
-    400236: upperarm_twist_01_l
-    400238: upperarm_twist_01_r
-    2100000: FX_Ring
-    2300000: FX_Ring_Mesh
-    3300000: FX_Ring_Mesh
-    4300000: FX_Ring_Mesh
-    7400000: Frank_RPG_Mage_Attack02_Demo
+    400100: Cloak
+    400102: foot_l
+    400104: foot_r
+    400106: Frank_Mesh_Unity
+    400108: //RootNode
+    400110: FX_Laser
+    400112: FX_Laser_Root
+    400114: FX_Projectile
+    400116: FX_Projectile1
+    400118: FX_Projectile_Mesh
+    400120: FX_Projectile_Mesh1
+    400122: FX_Ring
+    400124: FX_Ring_Mesh
+    400126: hand_l
+    400128: hand_r
+    400130: head
+    400132: ik_foot_l
+    400134: ik_foot_r
+    400136: ik_foot_root
+    400138: ik_hand_gun
+    400140: ik_hand_l
+    400142: ik_hand_r
+    400144: ik_hand_root
+    400146: index_01_l
+    400148: index_01_r
+    400150: index_02_l
+    400152: index_02_r
+    400154: index_03_l
+    400156: index_03_r
+    400158: lowerarm_l
+    400160: lowerarm_r
+    400162: lowerarm_twist_01_l
+    400164: lowerarm_twist_01_r
+    400166: Magic_Ball
+    400168: middle_01_l
+    400170: middle_01_r
+    400172: middle_02_l
+    400174: middle_02_r
+    400176: middle_03_l
+    400178: middle_03_r
+    400180: neck_01
+    400182: pelvis
+    400184: pinky_01_l
+    400186: pinky_01_r
+    400188: pinky_02_l
+    400190: pinky_02_r
+    400192: pinky_03_l
+    400194: pinky_03_r
+    400196: R_Hand_Weapon
+    400198: ring_01_l
+    400200: ring_01_r
+    400202: ring_02_l
+    400204: ring_02_r
+    400206: ring_03_l
+    400208: ring_03_r
+    400210: root
+    400212: spine_01
+    400214: spine_02
+    400216: spine_03
+    400218: Staff_Root
+    400220: thigh_l
+    400222: thigh_r
+    400224: thigh_twist_01_l
+    400226: thigh_twist_01_r
+    400228: thumb_01_l
+    400230: thumb_01_r
+    400232: thumb_02_l
+    400234: thumb_02_r
+    400236: thumb_03_l
+    400238: thumb_03_r
+    400240: upperarm_l
+    400242: upperarm_r
+    400244: upperarm_twist_01_l
+    400246: upperarm_twist_01_r
+    400248: weapon001
+    400250: Main_Camera
+    2100000: Body_Parts
+    2100002: Frank_Unity
+    2100004: Weapon
+    2100006: Glow
+    2100008: FX_Ring
+    4300000: Cloak
+    4300002: Frank_Mesh_Unity
+    4300004: weapon001
+    4300006: FX_Projectile_Mesh
+    4300008: FX_Projectile_Mesh1
+    4300010: FX_Ring_Mesh
+    4300012: FX_Laser
     9500000: //RootNode
-  externalObjects: {}
+    13700000: Cloak
+    13700002: Frank_Mesh_Unity
+    13700004: FX_Laser
+    13700006: FX_Projectile_Mesh
+    13700008: FX_Projectile_Mesh1
+    13700010: FX_Ring_Mesh
+    13700012: weapon001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Parts
+    second: {fileID: 2100000, guid: 3400e99caffbc7743ba9f8fc517e27c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FX_Ring
+    second: {fileID: 2100000, guid: a51f6668ff9204a48987a3f9d6f1ab9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frank_Unity
+    second: {fileID: 2100000, guid: 50f65c70255df0a498306213c986b728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow
+    second: {fileID: 2100000, guid: 3ee09a05f3774df40ae206d78fe4ebbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weapon
+    second: {fileID: 2100000, guid: c094a1c63d75e0745922126bdf3d78aa, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -262,327 +313,22 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: <Root Transform>
+    motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'thigh_l'
-      : position error = 2.259305 mm\n\t'thigh_r' : position error = 1.289458 mm\n\t'lowerarm_l'
-      : position error = 1.148856 mm\n\t'hand_l' : position error = 9.489864 mm\n\t'hand_r'
-      : position error = 3.702342 mm\n\t'middle_02_r' : position error = 1.204180
-      mm\n\t'ring_02_r' : position error = 1.314587 mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
-      improve retargeting quality.\n\t'thigh_l' has translation animation that will
-      be discarded.\n\t'calf_l' has translation animation that will be discarded.\n\t'foot_l'
-      has translation animation that will be discarded.\n\t'ball_l' has translation
-      animation that will be discarded.\n\t'thigh_r' has translation animation that
-      will be discarded.\n\t'calf_r' has translation animation that will be discarded.\n\t'foot_r'
-      has translation animation that will be discarded.\n\t'ball_r' has translation
-      animation that will be discarded.\n\t'upperarm_l' has translation animation
-      that will be discarded.\n\t'lowerarm_l' has translation animation that will
-      be discarded.\n\t'hand_l' has translation animation that will be discarded.\n\t'index_02_l'
-      has translation animation that will be discarded.\n\t'middle_02_l' has translation
-      animation that will be discarded.\n\t'middle_03_l' has translation animation
-      that will be discarded.\n\t'ring_01_l' has translation animation that will be
-      discarded.\n\t'ring_02_l' has translation animation that will be discarded.\n\t'ring_03_l'
-      has translation animation that will be discarded.\n\t'pinky_01_l' has translation
-      animation that will be discarded.\n\t'pinky_02_l' has translation animation
-      that will be discarded.\n\t'upperarm_r' has translation animation that will
-      be discarded.\n\t'lowerarm_r' has translation animation that will be discarded.\n\t'hand_r'
-      has translation animation that will be discarded.\n\t'head' has translation
-      animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Frank_RPG_Mage_Attack02_Demo
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 70
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Cloak
-        weight: 1
-      - path: Frank_Mesh_Unity
-        weight: 1
-      - path: FX_Laser
-        weight: 1
-      - path: FX_Projectile_Mesh
-        weight: 1
-      - path: FX_Projectile_Mesh1
-        weight: 1
-      - path: FX_Ring_Mesh
-        weight: 1
-      - path: root
-        weight: 1
-      - path: root/ik_foot_root
-        weight: 1
-      - path: root/ik_foot_root/ik_foot_l
-        weight: 1
-      - path: root/ik_foot_root/ik_foot_r
-        weight: 1
-      - path: root/ik_hand_root
-        weight: 1
-      - path: root/ik_hand_root/ik_hand_gun
-        weight: 1
-      - path: root/ik_hand_root/ik_hand_gun/ik_hand_l
-        weight: 1
-      - path: root/ik_hand_root/ik_hand_gun/ik_hand_r
-        weight: 1
-      - path: root/pelvis
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone018
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone019
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone020
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone021
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone022
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone023
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone024
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone025
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone026
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone027
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone028
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone029
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone030
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone031
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone032
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone033
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone034
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone035
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone036
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone037
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone038
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone039
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone040
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone041
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone042
-        weight: 1
-      - path: root/pelvis/FX_Laser_Root/Bone043
-        weight: 1
-      - path: root/pelvis/FX_Projectile
-        weight: 1
-      - path: root/pelvis/FX_Projectile/FX_Projectile1
-        weight: 1
-      - path: root/pelvis/FX_Ring
-        weight: 1
-      - path: root/pelvis/Main_Camera
-        weight: 1
-      - path: root/pelvis/spine_01
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone001
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone001/Bone002
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone001/Bone002/Bone003
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone001/Bone002/Bone003/Bone004
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone001/Bone002/Bone003/Bone004/Bone005
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone001/Bone002/Bone003/Bone004/Bone005/Bone006
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone007
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone007/Bone008
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone007/Bone008/Bone009
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone007/Bone008/Bone009/Bone010
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone007/Bone008/Bone009/Bone010/Bone011
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/Bone007/Bone008/Bone009/Bone010/Bone011/Bone012
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_01_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_01_l/index_02_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/index_01_l/index_02_l/index_03_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/Magic_Ball
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/middle_01_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/middle_01_l/middle_02_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/middle_01_l/middle_02_l/middle_03_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/pinky_01_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/pinky_01_l/pinky_02_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/pinky_01_l/pinky_02_l/pinky_03_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/ring_01_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/ring_01_l/ring_02_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/ring_01_l/ring_02_l/ring_03_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l/thumb_02_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/hand_l/thumb_01_l/thumb_02_l/thumb_03_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/lowerarm_l/lowerarm_twist_01_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_l/upperarm_l/upperarm_twist_01_l
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_01_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_01_r/index_02_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/index_01_r/index_02_r/index_03_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/middle_01_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/middle_01_r/middle_02_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/middle_01_r/middle_02_r/middle_03_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/pinky_01_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/pinky_01_r/pinky_02_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/pinky_01_r/pinky_02_r/pinky_03_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/R_Hand_Weapon
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/ring_01_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/ring_01_r/ring_02_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/ring_01_r/ring_02_r/ring_03_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/Staff_Root
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/Staff_Root/Bone014
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/Staff_Root/Bone014/Bone015
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/Staff_Root/Bone014/Bone016
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/Staff_Root/Bone017
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r/thumb_02_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/hand_r/thumb_01_r/thumb_02_r/thumb_03_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/lowerarm_r/lowerarm_twist_01_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/clavicle_r/upperarm_r/upperarm_twist_01_r
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/neck_01
-        weight: 1
-      - path: root/pelvis/spine_01/spine_02/spine_03/neck_01/head
-        weight: 1
-      - path: root/pelvis/thigh_l
-        weight: 1
-      - path: root/pelvis/thigh_l/calf_l
-        weight: 1
-      - path: root/pelvis/thigh_l/calf_l/calf_twist_01_l
-        weight: 1
-      - path: root/pelvis/thigh_l/calf_l/foot_l
-        weight: 1
-      - path: root/pelvis/thigh_l/calf_l/foot_l/ball_l
-        weight: 1
-      - path: root/pelvis/thigh_l/thigh_twist_01_l
-        weight: 1
-      - path: root/pelvis/thigh_r
-        weight: 1
-      - path: root/pelvis/thigh_r/calf_r
-        weight: 1
-      - path: root/pelvis/thigh_r/calf_r/calf_twist_01_r
-        weight: 1
-      - path: root/pelvis/thigh_r/calf_r/foot_r
-        weight: 1
-      - path: root/pelvis/thigh_r/calf_r/foot_r/ball_r
-        weight: 1
-      - path: root/pelvis/thigh_r/thigh_twist_01_r
-        weight: 1
-      - path: weapon001
-        weight: 1
-      maskType: 1
-      maskSource: {fileID: 31900000, guid: 858266af79848df44b285cac521e38fa, type: 2}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -612,7 +358,7 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
-  copyAvatar: 1
+  copyAvatar: 0
   humanDescription:
     serializedVersion: 2
     human:
@@ -1671,8 +1417,7 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0404ac7dc12f1524e8ab210e57629e8f,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
