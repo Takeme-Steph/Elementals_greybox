@@ -21,6 +21,8 @@ public class AttackActions : MonoBehaviour
 
     //timer to toggle coliders for attacks
     private WaitForSeconds _waitForSeconds = new WaitForSeconds(1f);
+    //private bool IsAttacking = false;
+    //private bool IsDefending = false;
     
     private void Start()
     {
