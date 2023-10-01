@@ -10,7 +10,7 @@ using UnityEngine.InputSystem;
 
 public class AttackActions : MonoBehaviour
 {
-    //store the vfx for each attak type
+    //store the vfx for each attack type
     public ParticleSystem BasicAttack;
         //public ParticleSystem igniteParticle;
         //public ParticleSystem extinguishParticle;

@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 03895d9ceda9b3341b7e2a9caaa1b88b
+  - enabled: 1
     path: Assets/Scenes/Scenic walk.unity
     guid: dbf0419433e741f43a1fb8296ea37154
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: d6ba0f00082a87d41aef46a3711ffb11
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}
