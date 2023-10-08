@@ -6,32 +6,41 @@ using UnityEngine.InputSystem;
 #endif
 
 
-//[RequireComponent(typeof(ParticleSystem))]
+
 
 public class AttackActions : MonoBehaviour
 {
     //store the vfx for each attack type
     public ParticleSystem BasicAttack;
-        //public ParticleSystem igniteParticle;
-        //public ParticleSystem extinguishParticle;
-        //public GameObject pointLight;
+    public int HP;
     
     //store the coliders for each attack type
     public  Collider BasicAttackCollider;
 
     //timer to toggle coliders for attacks
     private WaitForSeconds _waitForSeconds = new WaitForSeconds(1f);
+     private WaitForSeconds _hitCooldown = new WaitForSeconds(2f);
     //private bool IsAttacking = false;
     //private bool IsDefending = false;
+    private Animator _animator; // Reference to the player's Animator component
+    private bool _hasAnimator;
+    private int _animIDHit;
+    private int _animIDDie;
+    private CharacterController controller;
+    private bool canTakeDamage = true; // control the players ability to get hit
+
     
     private void Start()
     {
-        
+        _hasAnimator = TryGetComponent(out _animator); 
+        AssignAnimationIDs();
+        controller = GetComponent<CharacterController>();
+        HP = 50; // Set health point
     }
 
     void Update()
     {
-        
+
     }
 
     private void OnAttack()
@@ -48,6 +57,49 @@ public class AttackActions : MonoBehaviour
         yield return _waitForSeconds;
         _collider.enabled = false;
     }
+
+
+    private void AssignAnimationIDs()
+    {
+        _animIDHit = Animator.StringToHash("Hit");
+        _animIDDie = Animator.StringToHash("Die");
+    }
+
+    void OnTriggerEnter(Collider collision)   
+    {
+        //Debug.Log(collision.gameObject.name);
+    }
+
+    void OnTriggerStay(Collider collision)
+    {
+        //Debug.Log(collision.gameObject.name);
+    }
+
+    public void TakeDamage(int hitPoints)
+    {
+     if (_hasAnimator && canTakeDamage)
+        {   //trigger hit animation
+            _animator.SetTrigger(_animIDHit);
+            HP = HP - hitPoints;
+            // If HP is depleted, play the death animation
+            if (HP <= 0)
+            {
+               // _animator.SetTrigger(_animIDDie);
+                //dead = true;
+                //StartCoroutine(EndScene());
+            }
+             // Start the cooldown coroutine
+            StartCoroutine(DamageCooldown());
+        }
+    }
+
+    private IEnumerator DamageCooldown()
+    {
+        canTakeDamage = false; // Disable taking damage during cooldown
+        yield return _hitCooldown; // Wait for 2 seconds
+        canTakeDamage = true; // Enable taking damage again
+    }
+
 
 }
 
