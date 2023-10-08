@@ -24,7 +24,7 @@ Elementals is a project born out of a desire to create a captivating RPG experie
 
 To dive into Elementals, follow these simple steps:
 
-- Launch the game by executing the provided executable file or play it online using the link above.
+- Launch the game by executing the provided executable webgl build or play it online using the link above.
 - Utilize the following controls:
   - **W/A/S/D**: Move your character.
   - **Spacebar**: Jump.
