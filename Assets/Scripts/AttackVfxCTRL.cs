@@ -26,12 +26,8 @@ public class AttackVfxCTRL: MonoBehaviour
 
     void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag != "Player")
-        {
-            print(collision.gameObject.name);
-        }
-    }
 
+    }
 
 }
 

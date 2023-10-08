@@ -682,7 +682,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BasicAttack: {fileID: 1418490627}
+  HP: 0
   BasicAttackCollider: {fileID: 1418490629}
+--- !u!65 &79211987
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79211965}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.64, y: 1.87, z: 0.68}
+  m_Center: {x: 0, y: 0.86, z: 0}
 --- !u!1 &82013333
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,6 +2196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 50
   dead: 0
+  hitPoints: 5
 --- !u!65 &358967638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8154,6 +8177,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 79211980}
+    - targetCorrespondingSourceObject: {fileID: 974238578668270704, guid: c708a3b79cd542b42bbfedb17e213bc1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 79211987}
   m_SourcePrefab: {fileID: 100100000, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
 --- !u!1 &1859293722
 GameObject:
