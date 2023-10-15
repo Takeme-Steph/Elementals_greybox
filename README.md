@@ -57,7 +57,21 @@ Elementals is not your average RPG. Here's what sets it apart:
 ## Development
 
 Elementals was developed as the final project for my game development course. It represents the culmination of months of learning and hands-on experience. I chose to create this game because I wanted to demonstrate my ability to craft an engaging game world and complex gameplay mechanics. While it's a proof of concept, I put considerable time and effort into making Elementals a unique and memorable gaming experience.
-Asset such as character models, prefabs, animations and vfx were gotten on unity asset store and scripts were written by me
+Asset such as character models, prefabs, animations and vfx were gotten on unity asset store.
+
+## Complexity/ Course Requirements
+
+- Elementals has 4 scenes, a start scene, a play scene, a win scene and a lose scene.
+- There is a fair amount of world space for the player to explore.
+- There is an enemy that can be defeated to win the game.
+- There is a main player character equiped with a weapon and an attack action which has vfx.
+- Both enemy and player have health point that are depleted by attacks from each other.
+- Player attack power depends on the strenght of the player.
+- The enemy dragon has the ability to fight back.
+
+Scripts were written in a way that allows them to be reusable accross different players and enemies, as well as allow for growth and progression of the player. This is to enable me expand on this greybox and eventually build a more robust rpg.
+I beleive the functionality listed above meet the complexity requirements for my final project.
+
 
 ## Feedback
 
