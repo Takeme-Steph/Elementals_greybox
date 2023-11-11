@@ -49,22 +49,24 @@ Elementals is not your average RPG. Here's what sets it apart:
 
 - **Unlock Elemental Abilities**: Your victory against the dragon grants you access to powerful elemental abilities, adding a unique twist to the RPG experience.
 
-
 ## Complexity
 
-- Elementals has 4 scenes, a start scene, a play scene, a win scene and a lose scene.
+- Elementals has 4 scenes, a start scene, a play scene, a win scene, and a lose scene.
 - There is a fair amount of world space for the player to explore.
 - There is an enemy that can be defeated to win the game.
-- There is a main player character equiped with a weapon and an attack action which has vfx.
-- Both enemy and player have health point that are depleted by attacks from each other.
-- Player attack power depends on the strenght of the player.
+- There is a main player character equipped with a weapon and an attack action that has VFX.
+- Both enemy and player have health points that are depleted by attacks from each other.
+- Player attack power depends on the strength of the player.
 - The enemy dragon has the ability to fight back.
 
-Scripts were written in a way that allows them to be reusable accross different players and enemies, as well as allow for growth and progression of the player. This is to enable me expand on this greybox and eventually build a more robust rpg.
-
+Scripts were written in a way that allows them to be reusable across different players and enemies, as well as allow for the growth and progression of the player. This is to enable me to expand on this graybox and eventually build a more robust RPG.
 
 ## Feedback
 
 I welcome your feedback with open arms. Elementals is a work in progress, and your insights will help shape its future. Whether you encounter issues, have suggestions for improvement, or simply want to share your experience, please don't hesitate to contact me at stephanie.takeme@gmail.com.
 
 This README.md serves as a comprehensive documentation of my project, showcasing its complexity and uniqueness. I'm proud of what I've accomplished, and I hope you enjoy playing Elementals as much as I enjoyed creating it.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
