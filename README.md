@@ -2,17 +2,12 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Game Overview](#game-overview)
 - [How to Play](#how-to-play)
 - [Controls](#controls)
 - [Features](#features)
 - [Development](#development)
 - [Feedback](#feedback)
-
-## Introduction
-
-Welcome to Elementals! This project represents the culmination of my game development course, and I'm excited to share this unique RPG adventure with you. Elementals is not just a game; it's a testament to the skills and creativity I've honed throughout this course as well as other courses I have taken.
 
 ## Game Overview
 
@@ -54,12 +49,8 @@ Elementals is not your average RPG. Here's what sets it apart:
 
 - **Unlock Elemental Abilities**: Your victory against the dragon grants you access to powerful elemental abilities, adding a unique twist to the RPG experience.
 
-## Development
 
-Elementals was developed as the final project for my game development course. It represents the culmination of months of learning and hands-on experience. I chose to create this game because I wanted to demonstrate my ability to craft an engaging game world and complex gameplay mechanics. While it's a proof of concept, I put considerable time and effort into making Elementals a unique and memorable gaming experience.
-Asset such as character models, prefabs, animations and vfx were gotten on unity asset store.
-
-## Complexity/ Course Requirements
+## Complexity
 
 - Elementals has 4 scenes, a start scene, a play scene, a win scene and a lose scene.
 - There is a fair amount of world space for the player to explore.
@@ -70,11 +61,10 @@ Asset such as character models, prefabs, animations and vfx were gotten on unity
 - The enemy dragon has the ability to fight back.
 
 Scripts were written in a way that allows them to be reusable accross different players and enemies, as well as allow for growth and progression of the player. This is to enable me expand on this greybox and eventually build a more robust rpg.
-I beleive the functionality listed above meet the complexity requirements for my final project.
 
 
 ## Feedback
 
 I welcome your feedback with open arms. Elementals is a work in progress, and your insights will help shape its future. Whether you encounter issues, have suggestions for improvement, or simply want to share your experience, please don't hesitate to contact me at stephanie.takeme@gmail.com.
 
-This README.md serves as a comprehensive documentation of my project, showcasing its complexity and uniqueness in the context of my game development course. I'm proud of what I've accomplished, and I hope you enjoy playing Elementals as much as I enjoyed creating it.
+This README.md serves as a comprehensive documentation of my project, showcasing its complexity and uniqueness. I'm proud of what I've accomplished, and I hope you enjoy playing Elementals as much as I enjoyed creating it.
